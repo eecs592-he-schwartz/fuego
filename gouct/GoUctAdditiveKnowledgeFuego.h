@@ -26,7 +26,7 @@ class GoUctAdditiveKnowledgeFuego
 {
 public:
 
-    static const float VALUE_MULTIPLIER = 4.0f;
+    static constexpr float VALUE_MULTIPLIER = 4.0f;
 
     GoUctAdditiveKnowledgeFuego(const GoBoard& bd,
 				const GoUctAdditiveKnowledgeParamFuego& param);

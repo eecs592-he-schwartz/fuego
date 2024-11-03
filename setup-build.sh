@@ -62,7 +62,7 @@ setup() {
 	cd "build/$TARGET"
 	export CXX      # Used by configure script
 	export CXXFLAGS # Used by configure script
-	../../configure --enable-maintainer-mode $CONFIGUREFLAGS
+	../../configure --enable-maintainer-mode --with-boost-libdir='/usr/lib/x86_64-linux-gnu/' $CONFIGUREFLAGS
 	make clean
     )
 }
