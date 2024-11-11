@@ -1,0 +1,12 @@
+uct_param_search number_threads 8
+uct_param_search lock_free 1
+uct_max_memory 17179869184
+uct_param_player reuse_subtree 1
+uct_param_player ponder 0
+boardsize 19
+komi 6.5
+go_param timelimit 15
+go_rules chinese
+go_param_rules ko_rule simple
+go_param_rules allow_suicide 0
+go_param_rules capture_dead 0
