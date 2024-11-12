@@ -9,4 +9,4 @@ go_param timelimit 10
 go_rules chinese
 go_param_rules ko_rule simple
 go_param_rules allow_suicide 0
-go_param_rules capture_dead 0
+go_param_rules capture_dead 1
